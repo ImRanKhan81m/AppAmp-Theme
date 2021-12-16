@@ -1,0 +1,431 @@
+
+
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.slider-section{
+    background: url(image/mbr-10.jpg) no-repeat center center;
+    padding: 140px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.541);
+    z-index: -1;
+}
+.jon-header{
+    background: #ffffff;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+
+.jon-header .navbar-brand{
+    font-size: 25px;
+    font-weight: 500; 
+}
+.jon-header  span{
+    display: inline-block;
+    background: #6278df;
+    color: #fff;
+    height: 45px;
+    width: 42px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    position: relative;
+    
+}
+.jon-menu .nav-link{
+    padding-left: 20px !important;
+    padding-right: 15px !important;
+}
+.slider-section .slider-caption{
+    margin-bottom: 20px;
+}
+.slider-caption h4{
+    margin-bottom: 40px;
+    font-weight: 300;
+    
+}
+.slider-caption h2{
+    margin-bottom: 60px;
+    font-size: 45px;
+}
+.slider-caption .btn{
+    background: #5ba533;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px;
+}
+.slider-caption .form-control{
+    padding: 17px 20px;
+}
+.paddingAll{
+    padding: 80px;
+}
+.number-counter .counter-number-item  .h1{
+    font-size: 60px;
+}
+.number-counter .counter-number-item  .text-muted{
+    font-size: 1.3rem;
+}
+.about-section-title h1{
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+.about-section-title p{
+    font-size: 25px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.664);
+    margin-bottom: 90px;
+}
+.about-section{
+    background: #f7f9ff;
+}
+.about-text-left{
+    margin-top: 150px;
+}
+.about-text-left h1{
+    font-size: 45px;
+}
+.about-text-left .lead{
+    font-size: 21px;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 400;
+}
+.feature-item{
+    height: 300px;
+    box-shadow:2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1) ;
+}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-text-sec{
+    width: 60%;
+    padding: 25px;
+}
+.left-text-sec p{
+    font-size:1rem;
+    font-weight: 300;
+    color: #767676;
+}
+.left-img-sec img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -110px;
+}
+.portfolio-section .col h1{
+    margin-top: 90px;
+    margin-bottom: 80px;
+    font-size: 45px;
+    font-weight: 400;
+}
+.portfoliyo-items{
+    margin-bottom: 50px;
+}
+.portfolio-item a{
+    position: relative;
+    display: block;
+    
+    
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98,120,223,.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+.min-section-bg{
+    background: #f7f9ff;
+}
+
+
+.pricing-item{
+   background-color: #fff;
+   padding: 50px;
+   box-shadow:2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1) ;
+   border-radius: 5px;
+   transition: .4s;
+}
+.pricing-item:hover{
+    box-shadow:2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2) !important;
+}
+.pricing-item h1{
+   font-size:2.8rem;
+}
+.pricing-item p{
+   font-size: 1.3rem;
+   font-weight: 300;
+   color: #767676;
+}
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;}
+.pricing-item ul li{
+    margin-bottom:20px;
+    margin-top: 20px;
+    font-size:1.3rem;
+    color: #767676;
+    font-weight: 300;
+}
+.pricing-item ul li span{
+    min-width: 35px;
+    color: #6278df;
+    font-size: 2rem;
+    margin-right: 1rem;
+    display: inline-block;
+    font-weight:bold;
+}
+
+
+
+.pricing-item-btn a{
+    border-color: #657be0;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    border: 0px;
+    color: #6278df;
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 15px 180px;
+    margin-bottom: 15px;
+    transition: .4s;
+    border-radius: 10px;
+}
+.pricing-item:hover .btn{
+    color: #fff;
+    background-color: #6278df;;
+} 
+.pricing-item-btn:hover .btn{
+    background-color: black;
+    color: #fff;
+}
+
+.author-info{
+    width: 192px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.author-info img{
+   width: 70px;
+   margin-right: 15px;
+}
+.user-details{
+    position: relative;
+    top: 10px;
+}
+.user-details h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0;
+
+}
+.testimonial-caption h1{
+    font-size: 2.8rem;
+    font-weight: 400;
+    color:rgb(0, 0, 0);
+    margin-bottom: 0;
+}
+.testimonial-caption h5{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 22px;
+    margin-top: 10px;
+}
+.testimonial-caption p{
+    width:800px;
+    margin: auto;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding-bottom: 45px;
+    line-height: 1.5;
+}
+.testimonial-caption .fas { 
+    font-size:6.5rem;
+    color: #cccccc;
+    opacity: 0.3;
+}
+
+/*About Section*/
+
+.about-item{
+   margin-top: 90px;
+   transition: .4s;
+   margin-bottom: 50px;
+}
+.about-item:hover{
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+
+.about-item .card .card-body{
+    padding: 35px;
+}
+.about-item .card .card-body h4{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.about-item .card .card-body h6{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.about-item .card .card-body p{
+    font-size:1rem;
+}
+.about-item .card img{
+    width: 130px;
+    height: auto;
+    margin-top: -70px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 40%);
+    margin-left: 20px;
+    
+}
+.card-body a {
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    padding: 0.5rem 1rem; 
+    background-color: #fff;
+    color: black;
+    border-radius: 6px;
+    font-weight: 600;
+    transition:.4s;
+    margin-bottom: 2px;
+}
+.card-body a:hover{
+    color: #ffffff;
+    background-color: #465052;
+}
+.about-section .about-section-hed{
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+.about-section .row .lead{
+   font-size: 1.3rem;
+   width: 100%;
+   margin-bottom: 70px;
+}
+
+
+
+.contact-form-items .card{
+    padding: 40px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba( 64,87,191,0.2);
+}
+.contact-section .col p{
+    font-size: 1.3rem;
+}
+.contact-section .col h1{
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-bottom: 90px;
+}
+.contact-form-items .card-body h4{
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.contact-form-items .card-body .form-control {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500; 
+    box-shadow: 2.5px 4.33px 30px 0 rgba( 64,87,191,0.1);  
+}  
+.contact-form-items .card-body .form-control::placeholder{
+    color: rgba(119, 119, 119, 0.486);
+    font-weight: 300;
+}
+.contact-form-items .card-body .btn{
+    background-color: #6278df;
+    border-color: #6278df;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: .4s;
+}
+.contact-form-items .card-body .btn:hover{
+    background-color: white;
+    color: #6278df;
+    border-color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+.button-section{
+    margin-top: 30px;
+}
+.button-section .button-title h3{
+    font-size:1.6rem ;
+    font-weight: 300;
+    color: #767676;
+    margin-bottom: 35px;
+}
+.button-section .button-title h1{
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+
+}
+.button-section .button-title a{
+    background: none;
+    border: 2px solid #5ba533;
+    color: #5ba533;
+    transition: all 0.3s;
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-bottom: 60px;
+}
+
+.button-section .button-title .apple:hover{
+    color: #ffffff;
+    background-color: #5ba533;
+    border-color: #5ba533;
+    box-shadow: 3px 3px 27px -3px #5ba533;
+    text-decoration: none;
+    
+}
+
+.button-section .button-title .android{
+    background-color: #5ba533;
+    border-color: #5ba533;
+    margin-left: 10px;
+    color: #ffffff;
+    box-shadow: 3px 3px 27px -3px #5ba533;
+}
+.button-section .button-title .android:hover{
+    box-shadow: none;
+    background-color: #000000;
+    border-color: #000000;
+    color: #ffffff;
+}
+
